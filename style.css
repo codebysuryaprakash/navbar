@@ -1,0 +1,53 @@
+header{
+    background-color: black;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+#primary-navbar a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;    
+}
+
+#primary-navbar a:hover{
+    color: palevioletred;
+}
+
+main section{
+    height: 400px;
+}
+
+main section:nth-child(odd) {
+    background-color: skyblue;
+}
+
+main section:nth-child(even) {
+    background-color: pink;
+}
+
+#side-menu{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    background-color: grey;
+    width: 35%;
+    top: 0;
+    bottom: 0;
+}
+
+#side-menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#side-menu ul li{
+
+ list-style: none;
+ background-color: white;
+ padding: 10px;
+ margin: 5px;
+}

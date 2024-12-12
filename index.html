@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="side-menu">
+        <ul>
+            <li>HOME</li>
+            <li>SERVICE</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+            <li>BLOG</li>
+        </ul>
+        <button onclick="clsmenu()">close</button>
+    </nav>
+
+    <header>
+
+        <nav id="primary-navbar">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <button onclick="opennav()">Open</button>
+        </nav>
+
+    </header>
+    <main>
+        <section    id="landing">
+            <h1>Landing</h1>
+        </section>
+
+        <section id="services">
+            <h1>Services</h1>
+        </section>
+
+        <section id="about">
+            <h1>About</h1>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+        </section>
+
+        <section id="blog">
+            <h1>Blog</h1>
+        </section>
+
+<script>
+    function opennav() {
+        document.getElementById("side-menu").style.display="block"
+    }
+
+    function clsmenu() {
+        document.getElementById("side-menu").style.display="none"
+    }
+</script>
+   
+    
+</body>
+</html>
